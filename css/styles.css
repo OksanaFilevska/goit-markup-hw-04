@@ -29,7 +29,7 @@ ol {
   padding: 0;
 }
 
-.img {
+img {
   display: block;
 }
 
@@ -196,6 +196,7 @@ ol {
   border-style:none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .modal-btn:hover,
@@ -247,10 +248,10 @@ ol {
   display: flex;
 }
 .work-list .item {
-  width: calc(100%/3-60px);
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
 } 
- .work-list .item :last-child {
+.item :last-child {
   margin-right: 0;
 }
 
@@ -279,7 +280,7 @@ ol {
   border-radius: 0px 0px 4px 4px;
   
 }
-.team-list .team-list-item:last-child {
+.team-list .team-list-item :last-child {
   margin-right: 0;
 }
 
@@ -368,7 +369,9 @@ ol {
 
   min-width: 73px;
   border-style: none;
+  text-decoration: none;
 }
+
 .modal-btn-filter:hover,
 .modal-btn-filter:focus {
   background-color: var(--accent-colour);
@@ -383,12 +386,7 @@ ol {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.gallery-list-item {
-  width: calc(100%/3-60px);
-  margin-right: 30px;
-  padding-bottom: 30px;
-  background: var(--primary-bg-colour);
-}
+
 .gallery-list-title {
   font-weight: 700;
   font-size: 18px;
@@ -414,7 +412,10 @@ ol {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+  background: var(--primary-bg-colour);
+
 }
+
 .gallery-list-title {
   font-weight: 700;
   font-size: 18px;
