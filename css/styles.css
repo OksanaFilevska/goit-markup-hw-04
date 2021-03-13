@@ -151,6 +151,32 @@ img {
 .current {
   color: var(--accent-colour);
 }
+
+
+
+
+.navigation-link {
+  display: flex;
+  align-items: center;
+  fill: currentcolor;
+}
+
+.navigation-emeil {
+  margin-right: 10px;
+}
+
+.navigation-tel {
+  margin-right: 10px;
+}
+
+.navigation-link:hover .navigation-emeil,
+.navigation-link:focus .navigation-emeil,
+.navigation-link:hover .navigation-tel,
+.navigation-link:focus .navigation-tel {
+  fill: var(--accent-colour);
+}
+
+
 /*  END HEADER  */
 /*   HERO  */
 .hero {
