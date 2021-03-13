@@ -161,18 +161,15 @@ img {
   fill: currentcolor;
 }
 
-.navigation-email {
+.navigation-icon {
   margin-right: 10px;
 }
 
-.navigation-tel {
-  margin-right: 10px;
-}
 
-.navigation-link:hover .navigation-email,
-.navigation-link:focus .navigation-email,
-.navigation-link:hover .navigation-tel,
-.navigation-link:focus .navigation-tel {
+
+.navigation-link:hover .navigation-icon,
+.navigation-link:focus .navigation-icon
+ {
   fill: var(--accent-colour);
 }
 
@@ -421,8 +418,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-text-colour);
 }
-.navigation-item-1:not(:last-child) {
+.navigation-item-1 {
   margin-bottom: 9px;
+}
+.navigation-item-1:last-child {
+  margin-bottom: 0;
 }
 .footer-icon {
   margin-left: 70px;
