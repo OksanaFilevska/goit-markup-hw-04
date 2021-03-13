@@ -161,7 +161,7 @@ img {
   fill: currentcolor;
 }
 
-.navigation-emeil {
+.navigation-email {
   margin-right: 10px;
 }
 
@@ -169,8 +169,8 @@ img {
   margin-right: 10px;
 }
 
-.navigation-link:hover .navigation-emeil,
-.navigation-link:focus .navigation-emeil,
+.navigation-link:hover .navigation-email,
+.navigation-link:focus .navigation-email,
 .navigation-link:hover .navigation-tel,
 .navigation-link:focus .navigation-tel {
   fill: var(--accent-colour);
