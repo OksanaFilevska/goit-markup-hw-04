@@ -151,10 +151,6 @@ img {
 .current {
   color: var(--accent-colour);
 }
-
-
-
-
 .navigation-link {
   display: flex;
   align-items: center;
@@ -164,9 +160,6 @@ img {
 .navigation-icon {
   margin-right: 10px;
 }
-
-
-
 .navigation-link:hover .navigation-icon,
 .navigation-link:focus .navigation-icon
  {
@@ -433,7 +426,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-background-color);
+  color: var(--primary-bg-colour);
   margin-bottom: 20px;
 }
 .footer-icon-list {
